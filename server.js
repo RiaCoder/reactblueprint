@@ -7,11 +7,11 @@ var  port = process.env.PORT || 8080;
 
 
 browserify.settings({
-  transform: [babelify.configure({
-  })],
+  transform: [babelify.configure({presets: ["es2015", "react"]})],
   presets: ["es2015", "react"],
   extensions: ['.js', '.jsx'],
   grep: /\.jsx?$/
+
 });
 
 app.get('/bundle.js', browserify(__dirname+'/source/app.jsx'));

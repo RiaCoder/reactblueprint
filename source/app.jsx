@@ -14,6 +14,6 @@ const App = React.createClass({
 });
 
 render(
-  <App greeting="Basic Werwolf Setup - React Blueprints"/>,
+  <App greeting="Basic wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwasasasasdasadW Setup - React Blueprints"/>,
   document.getElementById('container')
 );
