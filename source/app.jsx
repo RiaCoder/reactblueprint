@@ -2,7 +2,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-const App = React.createClass({
+const Appsas = React.createClass({
   render: function () {
     console.log('running!');
     return (
@@ -14,6 +14,6 @@ const App = React.createClass({
 });
 
 render(
-  <App greeting="Basic wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwasasasasdasadW Setup - React Blueprints"/>,
+  <Appsas greeting="Basic Basesasasa Setup - React Blueprints"/>,
   document.getElementById('container')
 );
